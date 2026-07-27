@@ -2,21 +2,28 @@
 
 ## Supported Versions
 
-This repository currently accepts security fixes for the default branch only.
-If release branches or versioned packages are introduced later, this table must
-be updated before those releases are published.
+Security fixes are provided for the default branch of this repository.
+Versioned releases are not currently published; if that changes, this section
+will be updated with the supported release lines.
 
-| Version | Supported |
-| ------- | --------- |
-| `main`  | Yes       |
+| Release line | Supported |
+| ------------ | --------- |
+| Default branch | Yes |
+| Older commits, forks, or unpublished branches | No |
 
 ## Reporting a Vulnerability
 
-Please report suspected vulnerabilities privately instead of opening a public
-issue. Use GitHub's private vulnerability reporting for this repository when it
-is available. If that option is unavailable, contact the repository owner with a
-clear description of the issue, the affected files or workflows, and steps to
-reproduce the problem.
+Do not report suspected vulnerabilities in public GitHub issues, discussions,
+or pull requests.
 
-We will acknowledge receipt within 5 business days, share updates as the issue
-is investigated, and coordinate disclosure timing before publishing details.
+Use GitHub private vulnerability reporting for this repository when it is
+available. Include the following information in your report:
+
+- A concise description of the vulnerability and potential impact.
+- Steps to reproduce the issue or a proof of concept.
+- Affected files, workflows, configuration, or dependencies.
+- Any known mitigations or suggested fixes.
+
+We aim to acknowledge new reports within 5 business days. After triage, we will
+coordinate remediation and disclosure timing with the reporter before publishing
+technical details.
